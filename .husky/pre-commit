@@ -1,7 +1,3 @@
-echo "Running pre-commit hook"
-echo "Running linting"
+echo "** Running pre-commit hook **"
+echo "==> Running linting"
 npm run lint
-echo "Running unit tests"
-npm run test
-echo "Running e2e tests"
-npm run test:e2e

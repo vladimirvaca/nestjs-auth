@@ -1,0 +1,5 @@
+echo "** Running pre-push hook **"
+echo "==> Running unit tests"
+npm run test
+echo "==> Running e2e tests"
+npm run test:e2e
